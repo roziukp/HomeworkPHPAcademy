@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>TASK 1</title>
+	 <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Gloria Hallelujah">
+	<style>
+		body
+			{
+				background-image: url('http://fonday.ru/images/tmp/9/1/original/9121xpEiPKriNQdLf334c8pL2.jpg');
+				background-color:  #c7b39b;
+				background-size: 100%;
+			}
+		input
+			{
+				height: 40px;
+				width: 300px;
+			}
+		p
+			{
+				color: #FFFFFF;
+			}
+		
+	</style>
+
+ <script async defer src="https://buttons.github.io/buttons.js"></script>
+
+</head>
+
+
+<body>
+		<h1 align="center" style="font-family: Gloria Hallelujah; color: #FFFFFF; font-size: 90pt; margin-top:0px; margin-bottom: 0px">Python</h1>
+	  <div align="center" class="form">
+	    <form class="login-form">
+	      <p align="center" style="font-family:Gloria Hallelujah; font-size: 30pt; margin-top: 20px">Registration</p>
+	      <input type="text" placeholder="Input username"/><br><br>
+	      <input type="password" placeholder="Input password"/><br><br>
+	      <button> <a href="#"></a>Login</button>
+	      <p class="message">Not registered? <a href="http://www.php-academy.kiev.ua/" target="_blank">Create an account</a></p>
+	    </form>
+	  </div>
+		
+		<p align="center" style="margin-top: 30px"><a class="github-button" href="https://github.com/" data-size="large" data-show-count="true" aria-label="Follow Roziukp on GitHub">Follow roziukp</a></p>
+</body>
+</html>
