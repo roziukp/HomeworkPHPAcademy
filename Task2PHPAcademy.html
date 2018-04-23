@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2</title>
+    <style>
+            body
+                {
+                    background-color: #00FA9A;
+				    background-size: 100%;
+                }
+            #first-table
+                {
+                    width: 100%;
+                    border-spacing: 0px;
+                    border-padding: 0px;
+                }
+            td
+                {
+                    width: 50%;
+                }
+            .test-div
+                {
+                    color: red;
+                    font-size: 15pt;
+                }
+             /*Commet*/
+            .span-test
+                {
+                    color: green;
+                }
+    </style>
+</head>
+
+<body>
+        <table id="first-table" border="1">
+            <caption>Task1PHPAcademy</caption>
+            <tr>
+                <td bgcolor="#87CEFA">
+                    <h3 align="center">Использование div/span</h3>
+                        <div class="test-div">
+                            <h4>Первая строка!</h4>
+                            <h4>Вторая строка!</h4>
+                        </div>
+                        <span class="span-test"><h4>Первая строка!</h4> Stroka</span>
+                </td>
+                <td>
+                    <h3 align="center">Форма</h3>
+                    <div align="center">
+                    <form style="padding: 0px" enctype="multipart/form-data">
+                        <label>Input(text) form:<br>
+                                <input type="text" name="login">
+                        </label>
+                        <br>
+                        <label>Input(text/password) form:<br>
+                                <input type="password" name="password">
+                        </label>
+                         <br>
+                        <label>Submit button:<br>
+                                <input type="submit" name="Submit" value="Submit">
+                        </label>
+                        <br>
+                        <label>Textarea form:<br>
+                                <textarea rows="5" cols=60 name="textarea"></textarea>
+                            <br>
+                                <input type="submit" name="Submit" value="Submit">
+                        </label>
+                        <br>
+                        <label>Check-box:<br>
+                                <input type="checkbox" value="Python" checked>Python
+                                <input type="checkbox" value="CSS/HTML" checked>CSS/HTM
+                                <input type="checkbox" value=".NET">.NET
+                                <input type="checkbox" value="Java">Java
+                        </label>
+                         <br>
+                        <label>Select-box:<br>
+                            <select>
+                                <OPTION value="Python" checked>Python</OPTION>
+                                <OPTION value="CSS/HTML" checked>CSS/HTM</OPTION>
+                                <option value=".NET">.NET</option>
+                                <OPTION value="Java">Java</OPTION>
+                            </select>
+                        </label>
+                           <br>
+                        <label>Loading-file:<br>
+                            <input type="file">
+                            <input type="submit" name="Submit" value="Submit">
+                        </label>
+                    </form>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h3 align="center">Коментарии</h3>
+                    <h2>Certain text!</h2>
+                    <!--comment-->
+
+                </td>
+                <td bgcolor="#87CEFA">
+                    <h3 align="center">Фреймы</h3>
+                    <div align="center">
+                        <iframe width="500" height="350" src="https://www.youtube.com/embed/y4r_7lkCc2g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </td>
+            </tr>
+
+        </table>
+</body>
+</html>
